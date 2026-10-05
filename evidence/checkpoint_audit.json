@@ -1,0 +1,607 @@
+[
+  {
+    "snapshot": "10000_v3",
+    "config": {
+      "architectures": [
+        "ChessForCausalLM"
+      ],
+      "bos_token_id": 1,
+      "dropout": 0.1,
+      "dtype": "float32",
+      "eos_token_id": 2,
+      "layer_norm_epsilon": 1e-05,
+      "model_type": "chess_transformer",
+      "n_ctx": 512,
+      "n_embd": 128,
+      "n_head": 4,
+      "n_inner": 448,
+      "n_layer": 5,
+      "pad_token_id": 0,
+      "tie_weights": true,
+      "transformers_version": "4.57.3",
+      "vocab_size": 148
+    },
+    "tensor_element_count": 993856,
+    "all_header_shape_checks_pass": true,
+    "header_checks": {
+      "layer_count": true,
+      "token_embedding": true,
+      "position_embedding": true
+    },
+    "global_step": 10000,
+    "last_recorded_eval": null,
+    "weights_sha256": "90776f83d452cb4248667055e2fee8d7fc4ad2999fd6a0cfc3d22fe8c3fbf1c1"
+  },
+  {
+    "snapshot": "15000_v3",
+    "config": {
+      "architectures": [
+        "ChessForCausalLM"
+      ],
+      "bos_token_id": 1,
+      "dropout": 0.1,
+      "dtype": "float32",
+      "eos_token_id": 2,
+      "layer_norm_epsilon": 1e-05,
+      "model_type": "chess_transformer",
+      "n_ctx": 512,
+      "n_embd": 128,
+      "n_head": 4,
+      "n_inner": 448,
+      "n_layer": 5,
+      "pad_token_id": 0,
+      "tie_weights": true,
+      "transformers_version": "4.57.3",
+      "vocab_size": 148
+    },
+    "tensor_element_count": 993856,
+    "all_header_shape_checks_pass": true,
+    "header_checks": {
+      "layer_count": true,
+      "token_embedding": true,
+      "position_embedding": true
+    },
+    "global_step": 15000,
+    "last_recorded_eval": {
+      "epoch": 0.5052546483427648,
+      "eval_loss": 1.012258768081665,
+      "eval_runtime": 14.9383,
+      "eval_samples_per_second": 334.71,
+      "eval_steps_per_second": 5.288,
+      "step": 15000
+    },
+    "weights_sha256": "d7d8cf28540aa546c122086e1bc54ac9e13697aead031e68c3d853f5732cbe16"
+  },
+  {
+    "snapshot": "20000_v3",
+    "config": {
+      "architectures": [
+        "ChessForCausalLM"
+      ],
+      "bos_token_id": 1,
+      "dropout": 0.1,
+      "dtype": "float32",
+      "eos_token_id": 2,
+      "layer_norm_epsilon": 1e-05,
+      "model_type": "chess_transformer",
+      "n_ctx": 512,
+      "n_embd": 128,
+      "n_head": 4,
+      "n_inner": 448,
+      "n_layer": 5,
+      "pad_token_id": 0,
+      "tie_weights": true,
+      "transformers_version": "4.57.3",
+      "vocab_size": 148
+    },
+    "tensor_element_count": 993856,
+    "all_header_shape_checks_pass": true,
+    "header_checks": {
+      "layer_count": true,
+      "token_embedding": true,
+      "position_embedding": true
+    },
+    "global_step": 20000,
+    "last_recorded_eval": {
+      "epoch": 0.6736728644570197,
+      "eval_loss": 0.9753412008285522,
+      "eval_runtime": 15.0231,
+      "eval_samples_per_second": 332.822,
+      "eval_steps_per_second": 5.259,
+      "step": 20000
+    },
+    "weights_sha256": "62d943eb549cbd88ec6df2b16a2691906d593345dca48422bb30cc12bf075094"
+  },
+  {
+    "snapshot": "5000_v3",
+    "config": {
+      "architectures": [
+        "ChessForCausalLM"
+      ],
+      "bos_token_id": 1,
+      "dropout": 0.1,
+      "dtype": "float32",
+      "eos_token_id": 2,
+      "layer_norm_epsilon": 1e-05,
+      "model_type": "chess_transformer",
+      "n_ctx": 512,
+      "n_embd": 128,
+      "n_head": 4,
+      "n_inner": 448,
+      "n_layer": 5,
+      "pad_token_id": 0,
+      "tie_weights": true,
+      "transformers_version": "4.57.3",
+      "vocab_size": 148
+    },
+    "tensor_element_count": 993856,
+    "all_header_shape_checks_pass": true,
+    "header_checks": {
+      "layer_count": true,
+      "token_embedding": true,
+      "position_embedding": true
+    },
+    "global_step": 5000,
+    "last_recorded_eval": null,
+    "weights_sha256": "b201a797dec680378befe9cb0f860928d6e77f7817361735000a912ce37f55f2"
+  },
+  {
+    "snapshot": "checkpoint-32",
+    "config": {
+      "architectures": [
+        "ChessForCausalLM"
+      ],
+      "bos_token_id": 1,
+      "dropout": 0.1,
+      "dtype": "float32",
+      "eos_token_id": 2,
+      "layer_norm_epsilon": 1e-05,
+      "model_type": "chess_transformer",
+      "n_ctx": 256,
+      "n_embd": 128,
+      "n_head": 4,
+      "n_inner": 384,
+      "n_layer": 4,
+      "pad_token_id": 0,
+      "tie_weights": true,
+      "transformers_version": "4.57.6",
+      "vocab_size": 1682
+    },
+    "tensor_element_count": 909824,
+    "all_header_shape_checks_pass": true,
+    "header_checks": {
+      "layer_count": true,
+      "token_embedding": true,
+      "position_embedding": true
+    },
+    "global_step": 32,
+    "last_recorded_eval": {
+      "epoch": 1.0,
+      "eval_loss": 6.059559345245361,
+      "eval_runtime": 72.7012,
+      "eval_samples_per_second": 68.775,
+      "eval_steps_per_second": 1.087,
+      "step": 32
+    },
+    "weights_sha256": "fabe7b3744edffb2e9506a0bf42dc4e82cf5904640d98801718f9a27a87b553c"
+  },
+  {
+    "snapshot": "checkpoint10000_v5",
+    "config": {
+      "architectures": [
+        "ChessForCausalLM"
+      ],
+      "bos_token_id": 1,
+      "dropout": 0.1,
+      "dtype": "float32",
+      "eos_token_id": 2,
+      "layer_norm_epsilon": 1e-05,
+      "model_type": "chess_transformer",
+      "n_ctx": 512,
+      "n_embd": 128,
+      "n_head": 4,
+      "n_inner": 339,
+      "n_layer": 6,
+      "pad_token_id": 0,
+      "tie_weights": true,
+      "transformers_version": "4.57.6",
+      "vocab_size": 132
+    },
+    "tensor_element_count": 1005554,
+    "all_header_shape_checks_pass": true,
+    "header_checks": {
+      "layer_count": true,
+      "token_embedding": true,
+      "position_embedding": true
+    },
+    "global_step": 10000,
+    "last_recorded_eval": {
+      "epoch": 1.3473457289140394,
+      "eval_loss": 1.4481275081634521,
+      "eval_runtime": 15.644,
+      "eval_samples_per_second": 319.611,
+      "eval_steps_per_second": 5.05,
+      "step": 10000
+    },
+    "weights_sha256": "ad0c0af41aef0d4231b0675eaca3b17494def4c642b38a8413a8fe72d0b77af4"
+  },
+  {
+    "snapshot": "checkpoint8000_v4",
+    "config": {
+      "architectures": [
+        "ChessForCausalLM"
+      ],
+      "bos_token_id": 1,
+      "dropout": 0.1,
+      "dtype": "float32",
+      "eos_token_id": 2,
+      "layer_norm_epsilon": 1e-05,
+      "model_type": "chess_transformer",
+      "n_ctx": 1024,
+      "n_embd": 128,
+      "n_head": 4,
+      "n_inner": 256,
+      "n_layer": 5,
+      "pad_token_id": 0,
+      "tie_weights": true,
+      "transformers_version": "4.57.3",
+      "vocab_size": 149
+    },
+    "tensor_element_count": 812800,
+    "all_header_shape_checks_pass": true,
+    "header_checks": {
+      "layer_count": true,
+      "token_embedding": true,
+      "position_embedding": true
+    },
+    "global_step": 8000,
+    "last_recorded_eval": {
+      "epoch": 1.0778765831312316,
+      "eval_loss": 0.7175522446632385,
+      "eval_runtime": 11.4338,
+      "eval_samples_per_second": 437.298,
+      "eval_steps_per_second": 6.909,
+      "step": 8000
+    },
+    "weights_sha256": "c27c5c7231c900a803d1413cfa5658eb0934eded7e2ae606c413454b9375a5b6"
+  },
+  {
+    "snapshot": "epoch1_v2",
+    "config": {
+      "architectures": [
+        "ChessForCausalLM"
+      ],
+      "bos_token_id": 1,
+      "dropout": 0.1,
+      "dtype": "float32",
+      "eos_token_id": 2,
+      "layer_norm_epsilon": 1e-05,
+      "model_type": "chess_transformer",
+      "n_ctx": 256,
+      "n_embd": 128,
+      "n_head": 4,
+      "n_inner": 227,
+      "n_layer": 6,
+      "pad_token_id": 0,
+      "tie_weights": true,
+      "transformers_version": "4.57.3",
+      "vocab_size": 1682
+    },
+    "tensor_element_count": 998482,
+    "all_header_shape_checks_pass": true,
+    "header_checks": {
+      "layer_count": true,
+      "token_embedding": true,
+      "position_embedding": true
+    },
+    "global_step": 29688,
+    "last_recorded_eval": {
+      "epoch": 1.0,
+      "eval_loss": 2.349616050720215,
+      "eval_runtime": 6.7033,
+      "eval_samples_per_second": 745.9,
+      "eval_steps_per_second": 11.785,
+      "step": 29688
+    },
+    "weights_sha256": "1d0a5e18b049bd82984700dd738baef932079128dc717d9ffc38271a3bf019a3"
+  },
+  {
+    "snapshot": "epoch1_v4",
+    "config": {
+      "architectures": [
+        "ChessForCausalLM"
+      ],
+      "bos_token_id": 1,
+      "dropout": 0.1,
+      "dtype": "float32",
+      "eos_token_id": 2,
+      "layer_norm_epsilon": 1e-05,
+      "model_type": "chess_transformer",
+      "n_ctx": 1024,
+      "n_embd": 128,
+      "n_head": 4,
+      "n_inner": 256,
+      "n_layer": 5,
+      "pad_token_id": 0,
+      "tie_weights": true,
+      "transformers_version": "4.57.3",
+      "vocab_size": 149
+    },
+    "tensor_element_count": 812800,
+    "all_header_shape_checks_pass": true,
+    "header_checks": {
+      "layer_count": true,
+      "token_embedding": true,
+      "position_embedding": true
+    },
+    "global_step": 14844,
+    "last_recorded_eval": {
+      "epoch": 1.8862840204796552,
+      "eval_loss": 0.670207142829895,
+      "eval_runtime": 11.3885,
+      "eval_samples_per_second": 439.038,
+      "eval_steps_per_second": 6.937,
+      "step": 14000
+    },
+    "weights_sha256": "6292530056d072d46a852cac25ab673cf9fe55f2a329c3c829c7a0fd3c4fa51e"
+  },
+  {
+    "snapshot": "epoch2_v1",
+    "config": {
+      "architectures": [
+        "ChessForCausalLM"
+      ],
+      "bos_token_id": 1,
+      "dropout": 0.1,
+      "dtype": "float32",
+      "eos_token_id": 2,
+      "layer_norm_epsilon": 1e-05,
+      "model_type": "chess_transformer",
+      "n_ctx": 256,
+      "n_embd": 128,
+      "n_head": 4,
+      "n_inner": 384,
+      "n_layer": 4,
+      "pad_token_id": 0,
+      "tie_weights": true,
+      "transformers_version": "4.57.3",
+      "vocab_size": 1682
+    },
+    "tensor_element_count": 909824,
+    "all_header_shape_checks_pass": true,
+    "header_checks": {
+      "layer_count": true,
+      "token_embedding": true,
+      "position_embedding": true
+    },
+    "global_step": 59376,
+    "last_recorded_eval": {
+      "epoch": 2.0,
+      "eval_loss": 2.2284131050109863,
+      "eval_runtime": 5.9417,
+      "eval_samples_per_second": 841.515,
+      "eval_steps_per_second": 13.296,
+      "step": 59376
+    },
+    "weights_sha256": "80073dff4fb9ed107919c9623831d765d7a06672a535bab1f703066b5cde01a2"
+  },
+  {
+    "snapshot": "epoch2_v2",
+    "config": {
+      "architectures": [
+        "ChessForCausalLM"
+      ],
+      "bos_token_id": 1,
+      "dropout": 0.1,
+      "dtype": "float32",
+      "eos_token_id": 2,
+      "layer_norm_epsilon": 1e-05,
+      "model_type": "chess_transformer",
+      "n_ctx": 256,
+      "n_embd": 128,
+      "n_head": 4,
+      "n_inner": 227,
+      "n_layer": 6,
+      "pad_token_id": 0,
+      "tie_weights": true,
+      "transformers_version": "4.57.3",
+      "vocab_size": 1682
+    },
+    "tensor_element_count": 998482,
+    "all_header_shape_checks_pass": true,
+    "header_checks": {
+      "layer_count": true,
+      "token_embedding": true,
+      "position_embedding": true
+    },
+    "global_step": 59376,
+    "last_recorded_eval": {
+      "epoch": 2.0,
+      "eval_loss": 2.2469394207000732,
+      "eval_runtime": 7.6401,
+      "eval_samples_per_second": 654.442,
+      "eval_steps_per_second": 10.34,
+      "step": 59376
+    },
+    "weights_sha256": "9a5b9f91445ae856ecf902ca40c15a87640779ca9211f1d2103414eff0f20f6d"
+  },
+  {
+    "snapshot": "epoch3_v2",
+    "config": {
+      "architectures": [
+        "ChessForCausalLM"
+      ],
+      "bos_token_id": 1,
+      "dropout": 0.1,
+      "dtype": "float32",
+      "eos_token_id": 2,
+      "layer_norm_epsilon": 1e-05,
+      "model_type": "chess_transformer",
+      "n_ctx": 256,
+      "n_embd": 128,
+      "n_head": 4,
+      "n_inner": 227,
+      "n_layer": 6,
+      "pad_token_id": 0,
+      "tie_weights": true,
+      "transformers_version": "4.57.3",
+      "vocab_size": 1682
+    },
+    "tensor_element_count": 998482,
+    "all_header_shape_checks_pass": true,
+    "header_checks": {
+      "layer_count": true,
+      "token_embedding": true,
+      "position_embedding": true
+    },
+    "global_step": 89064,
+    "last_recorded_eval": {
+      "epoch": 3.0,
+      "eval_loss": 2.1944024562835693,
+      "eval_runtime": 6.8746,
+      "eval_samples_per_second": 727.311,
+      "eval_steps_per_second": 11.492,
+      "step": 89064
+    },
+    "weights_sha256": "e142d055ad24df9b43efc3b8d288e9d5946519b460e326140f76c9a8088b5072"
+  },
+  {
+    "snapshot": "epoch4_v2",
+    "config": {
+      "architectures": [
+        "ChessForCausalLM"
+      ],
+      "bos_token_id": 1,
+      "dropout": 0.1,
+      "dtype": "float32",
+      "eos_token_id": 2,
+      "layer_norm_epsilon": 1e-05,
+      "model_type": "chess_transformer",
+      "n_ctx": 256,
+      "n_embd": 128,
+      "n_head": 4,
+      "n_inner": 227,
+      "n_layer": 6,
+      "pad_token_id": 0,
+      "tie_weights": true,
+      "transformers_version": "4.57.3",
+      "vocab_size": 1682
+    },
+    "tensor_element_count": 998482,
+    "all_header_shape_checks_pass": true,
+    "header_checks": {
+      "layer_count": true,
+      "token_embedding": true,
+      "position_embedding": true
+    },
+    "global_step": 118752,
+    "last_recorded_eval": {
+      "epoch": 4.0,
+      "eval_loss": 2.1623177528381348,
+      "eval_runtime": 7.4793,
+      "eval_samples_per_second": 668.514,
+      "eval_steps_per_second": 10.563,
+      "step": 118752
+    },
+    "weights_sha256": "e142d055ad24df9b43efc3b8d288e9d5946519b460e326140f76c9a8088b5072"
+  },
+  {
+    "snapshot": "final_model",
+    "config": {
+      "architectures": [
+        "ChessForCausalLM"
+      ],
+      "bos_token_id": 1,
+      "dropout": 0.1,
+      "dtype": "float32",
+      "eos_token_id": 2,
+      "layer_norm_epsilon": 1e-05,
+      "model_type": "chess_transformer",
+      "n_ctx": 256,
+      "n_embd": 128,
+      "n_head": 4,
+      "n_inner": 384,
+      "n_layer": 4,
+      "pad_token_id": 0,
+      "tie_weights": true,
+      "transformers_version": "4.57.6",
+      "vocab_size": 1682
+    },
+    "tensor_element_count": 909824,
+    "all_header_shape_checks_pass": true,
+    "header_checks": {
+      "layer_count": true,
+      "token_embedding": true,
+      "position_embedding": true
+    },
+    "global_step": null,
+    "last_recorded_eval": null,
+    "weights_sha256": "fabe7b3744edffb2e9506a0bf42dc4e82cf5904640d98801718f9a27a87b553c"
+  },
+  {
+    "snapshot": "final_model_old",
+    "config": {
+      "architectures": [
+        "ChessForCausalLM"
+      ],
+      "bos_token_id": 1,
+      "dropout": 0.1,
+      "dtype": "float32",
+      "eos_token_id": 2,
+      "layer_norm_epsilon": 1e-05,
+      "model_type": "chess_transformer",
+      "n_ctx": 256,
+      "n_embd": 128,
+      "n_head": 4,
+      "n_inner": 384,
+      "n_layer": 4,
+      "pad_token_id": 0,
+      "tie_weights": true,
+      "transformers_version": "4.57.3",
+      "vocab_size": 1682
+    },
+    "tensor_element_count": 909824,
+    "all_header_shape_checks_pass": true,
+    "header_checks": {
+      "layer_count": true,
+      "token_embedding": true,
+      "position_embedding": true
+    },
+    "global_step": null,
+    "last_recorded_eval": null,
+    "weights_sha256": "4dfa72d7a980612daddba42a056272ba950629ea312c59a45926a2e28d287b83"
+  },
+  {
+    "snapshot": "final_model_v5",
+    "config": {
+      "architectures": [
+        "ChessForCausalLM"
+      ],
+      "bos_token_id": 1,
+      "dropout": 0.1,
+      "dtype": "float32",
+      "eos_token_id": 2,
+      "layer_norm_epsilon": 1e-05,
+      "model_type": "chess_transformer",
+      "n_ctx": 512,
+      "n_embd": 128,
+      "n_head": 4,
+      "n_inner": 339,
+      "n_layer": 6,
+      "pad_token_id": 0,
+      "tie_weights": true,
+      "transformers_version": "4.57.6",
+      "vocab_size": 132
+    },
+    "tensor_element_count": 1005554,
+    "all_header_shape_checks_pass": true,
+    "header_checks": {
+      "layer_count": true,
+      "token_embedding": true,
+      "position_embedding": true
+    },
+    "global_step": null,
+    "last_recorded_eval": null,
+    "weights_sha256": "7ae6f6f890c2ead6126c08d18890d460635ece0f3ec514cd71e556cf3731ecd2"
+  }
+]

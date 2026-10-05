@@ -1,0 +1,196 @@
+{
+  "date": "2026-10-05",
+  "source_scope": "TP1 and TP2 only; TP2-redo excluded",
+  "copied_files": [
+    {
+      "source_relative_to_course": "TP2/Chess1MChallenge/src/__init__.py",
+      "published_path": "src/__init__.py",
+      "sha256": "5d96d999356f18bea0dc32aa93e306893878b0422608d12c42c8eed2cef62050"
+    },
+    {
+      "source_relative_to_course": "TP2/Chess1MChallenge/src/data.py",
+      "published_path": "src/data.py",
+      "sha256": "cf96e76d69b75c631bf61f27bb45a6147f4827e8c3d40c6b5886ede10655a341"
+    },
+    {
+      "source_relative_to_course": "TP2/Chess1MChallenge/src/evaluate.py",
+      "published_path": "src/evaluate.py",
+      "sha256": "f52f588483ce17f0b8f9e02859d11119292b16d2ee32de7fe8818b875b2ab94e"
+    },
+    {
+      "source_relative_to_course": "TP2/Chess1MChallenge/src/model.py",
+      "published_path": "src/model.py",
+      "sha256": "6102d0343b072bf4ccb2847b75b359e20ff5cea47ada8b0a826dc930987351d3"
+    },
+    {
+      "source_relative_to_course": "TP2/Chess1MChallenge/src/tokenizer.py",
+      "published_path": "src/tokenizer.py",
+      "sha256": "d9cb55c5fa01f211663df02fa9d45870fff74500e1b6e9eafd848f35dc8180e6"
+    },
+    {
+      "source_relative_to_course": "TP2/Chess1MChallenge/src/tokenizer_instance.py",
+      "published_path": "src/tokenizer_instance.py",
+      "sha256": "3997a1eb815004cb88905cedd0af869192f07e57c88d8771dc219c6f1716bdff"
+    },
+    {
+      "source_relative_to_course": "TP2/Chess1MChallenge/src/tokenizer_old.py",
+      "published_path": "src/tokenizer_old.py",
+      "sha256": "d3b9db42fba9cf9685b209daf6fa76edb7fe24afa10493e7ec6f0aa6271ff87f"
+    },
+    {
+      "source_relative_to_course": "TP2/Chess1MChallenge/src/train.py",
+      "published_path": "src/train.py",
+      "sha256": "cdec7d08d8b49057c41288be736fda3cf07aae74d277b5dda6bbd065667ab789"
+    },
+    {
+      "source_relative_to_course": "TP2/Chess1MChallenge/src/utils.py",
+      "published_path": "src/utils.py",
+      "sha256": "f568dd6b3fc68c0e5e32e15813fea534b4ac47655247e2862648d1afe3012198"
+    },
+    {
+      "source_relative_to_course": "TP2/Chess1MChallenge/check.py",
+      "published_path": "check.py",
+      "sha256": "38b6673beeb193f3652c229ddc97aaff3d5ddbe29c4cacf6c9d17d68948c3515"
+    },
+    {
+      "source_relative_to_course": "TP2/Chess1MChallenge/debug_generate.py",
+      "published_path": "debug_generate.py",
+      "sha256": "7cac0d5d67a62ddfb39d79376938f122e2a8cc827564c5636577b4d0da065f5a"
+    },
+    {
+      "source_relative_to_course": "TP2/Chess1MChallenge/submit.py",
+      "published_path": "submit.py",
+      "sha256": "19a894de0a68ceb5338823c580e796092bd1f92c67275675930ce4ff95476008"
+    },
+    {
+      "source_relative_to_course": "TP2/Chess1MChallenge/pyproject.toml",
+      "published_path": "pyproject.toml",
+      "sha256": "74da9fc82d30f549161eefd9f1f2dd14aa623f3c10eaa0447129bfde775630b1"
+    },
+    {
+      "source_relative_to_course": "TP2/Chess1MChallenge/README.md",
+      "published_path": "docs/course_arena_README.md",
+      "sha256": "75d4e80e287cbe4b4b7f753d94fb7a52b43dc86085d064eb5c5a25c65af6cc4f"
+    },
+    {
+      "source_relative_to_course": "TP2/Chess1MChallenge/requirements.txt",
+      "published_path": "docs/requirements_original.txt",
+      "sha256": "6be2369efd5b657b2c67df983ecf50fedb2f91bd6ddb6b71df5df4f18b0be18e"
+    },
+    {
+      "source_relative_to_course": "TP2/Chess1MChallenge/TEMPLATE_README.md",
+      "published_path": "docs/course_TEMPLATE_README.md",
+      "sha256": "5ba99560178948fbc791895a4e44f2448862e2ad9f00804bfa380222e18986be"
+    },
+    {
+      "source_relative_to_course": "TP2/Chess1MChallenge/my_model/10000_v3/config.json",
+      "published_path": "evidence/runs/10000_v3/config.json",
+      "sha256": "6764104849b7d8c160f2c603867468c474fc0f380375c6cc53c664531c31d5f0"
+    },
+    {
+      "source_relative_to_course": "TP2/Chess1MChallenge/my_model/15000_v3/config.json",
+      "published_path": "evidence/runs/15000_v3/config.json",
+      "sha256": "6764104849b7d8c160f2c603867468c474fc0f380375c6cc53c664531c31d5f0"
+    },
+    {
+      "source_relative_to_course": "TP2/Chess1MChallenge/my_model/20000_v3/config.json",
+      "published_path": "evidence/runs/20000_v3/config.json",
+      "sha256": "6764104849b7d8c160f2c603867468c474fc0f380375c6cc53c664531c31d5f0"
+    },
+    {
+      "source_relative_to_course": "TP2/Chess1MChallenge/my_model/5000_v3/config.json",
+      "published_path": "evidence/runs/5000_v3/config.json",
+      "sha256": "6764104849b7d8c160f2c603867468c474fc0f380375c6cc53c664531c31d5f0"
+    },
+    {
+      "source_relative_to_course": "TP2/Chess1MChallenge/my_model/checkpoint-32/config.json",
+      "published_path": "evidence/runs/checkpoint-32/config.json",
+      "sha256": "bf8b9f135e81494ccd76927952e11489843654ccc0c27942f0a09d8e33ec691c"
+    },
+    {
+      "source_relative_to_course": "TP2/Chess1MChallenge/my_model/checkpoint10000_v5/config.json",
+      "published_path": "evidence/runs/checkpoint10000_v5/config.json",
+      "sha256": "96294e4f632853b45fbe48813892a93e81df37881f8ffe73f6e92e4b03456710"
+    },
+    {
+      "source_relative_to_course": "TP2/Chess1MChallenge/my_model/checkpoint8000_v4/config.json",
+      "published_path": "evidence/runs/checkpoint8000_v4/config.json",
+      "sha256": "8c8b667855ca2c96db29e313ad1180f9121310e222f4424c2efe5791e56a0cea"
+    },
+    {
+      "source_relative_to_course": "TP2/Chess1MChallenge/my_model/epoch1_v2/config.json",
+      "published_path": "evidence/runs/epoch1_v2/config.json",
+      "sha256": "6776f7ce6aa28c449c84235a87e6c52598b692b039d894ce63d9fdbebb065243"
+    },
+    {
+      "source_relative_to_course": "TP2/Chess1MChallenge/my_model/epoch1_v4/config.json",
+      "published_path": "evidence/runs/epoch1_v4/config.json",
+      "sha256": "8c8b667855ca2c96db29e313ad1180f9121310e222f4424c2efe5791e56a0cea"
+    },
+    {
+      "source_relative_to_course": "TP2/Chess1MChallenge/my_model/epoch2_v1/config.json",
+      "published_path": "evidence/runs/epoch2_v1/config.json",
+      "sha256": "7ce1d96b96c55dcb8adee0007c907a42e1d3bdc83f98c7095455d858ee50fe99"
+    },
+    {
+      "source_relative_to_course": "TP2/Chess1MChallenge/my_model/epoch2_v2/config.json",
+      "published_path": "evidence/runs/epoch2_v2/config.json",
+      "sha256": "6776f7ce6aa28c449c84235a87e6c52598b692b039d894ce63d9fdbebb065243"
+    },
+    {
+      "source_relative_to_course": "TP2/Chess1MChallenge/my_model/epoch3_v2/config.json",
+      "published_path": "evidence/runs/epoch3_v2/config.json",
+      "sha256": "6776f7ce6aa28c449c84235a87e6c52598b692b039d894ce63d9fdbebb065243"
+    },
+    {
+      "source_relative_to_course": "TP2/Chess1MChallenge/my_model/epoch4_v2/config.json",
+      "published_path": "evidence/runs/epoch4_v2/config.json",
+      "sha256": "6776f7ce6aa28c449c84235a87e6c52598b692b039d894ce63d9fdbebb065243"
+    },
+    {
+      "source_relative_to_course": "TP2/Chess1MChallenge/my_model/final_model/config.json",
+      "published_path": "evidence/runs/final_model/config.json",
+      "sha256": "bf8b9f135e81494ccd76927952e11489843654ccc0c27942f0a09d8e33ec691c"
+    },
+    {
+      "source_relative_to_course": "TP2/Chess1MChallenge/my_model/final_model_old/config.json",
+      "published_path": "evidence/runs/final_model_old/config.json",
+      "sha256": "7ce1d96b96c55dcb8adee0007c907a42e1d3bdc83f98c7095455d858ee50fe99"
+    },
+    {
+      "source_relative_to_course": "TP2/Chess1MChallenge/my_model/final_model_v5/config.json",
+      "published_path": "evidence/runs/final_model_v5/config.json",
+      "sha256": "96294e4f632853b45fbe48813892a93e81df37881f8ffe73f6e92e4b03456710"
+    },
+    {
+      "source_relative_to_course": "TP2/Chess1MChallenge/my_model/final_model_v5/config.json",
+      "published_path": "snapshots/final_model_v5/config.json",
+      "sha256": "96294e4f632853b45fbe48813892a93e81df37881f8ffe73f6e92e4b03456710"
+    },
+    {
+      "source_relative_to_course": "TP2/Chess1MChallenge/my_model/final_model_v5/model.safetensors",
+      "published_path": "snapshots/final_model_v5/model.safetensors",
+      "sha256": "7ae6f6f890c2ead6126c08d18890d460635ece0f3ec514cd71e556cf3731ecd2"
+    },
+    {
+      "source_relative_to_course": "TP2/Chess1MChallenge/my_model/final_model_v5/special_tokens_map.json",
+      "published_path": "snapshots/final_model_v5/special_tokens_map.json",
+      "sha256": "fdd1575e8bd811652f3708f5d70495fd581ca5b59111e6edaa903e43783ce944"
+    },
+    {
+      "source_relative_to_course": "TP2/Chess1MChallenge/my_model/final_model_v5/tokenizer_config.json",
+      "published_path": "snapshots/final_model_v5/tokenizer_config.json",
+      "sha256": "855f3ae8b85fc523a9148a6876ef81086891d0d7ca8c099c92e9c01ccec49976"
+    },
+    {
+      "source_relative_to_course": "TP2/Chess1MChallenge/my_model/final_model_v5/tokenizer.py",
+      "published_path": "snapshots/final_model_v5/tokenizer.py",
+      "sha256": "06cabcfff738ba8a827f8521c8d38fa1632e4e80e144bb661a8170493e56dfdb"
+    },
+    {
+      "source_relative_to_course": "TP2/Chess1MChallenge/my_model/final_model_v5/vocab.json",
+      "published_path": "snapshots/final_model_v5/vocab.json",
+      "sha256": "971012133ccbf6d7e47cf6841a0392f915b02f51bedea0cd2b27cda7fc70351c"
+    }
+  ]
+}

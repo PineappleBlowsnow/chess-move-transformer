@@ -1,0 +1,14 @@
+{
+  "global_step": 32,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "eval_loss": 6.059559345245361,
+      "eval_runtime": 72.7012,
+      "eval_samples_per_second": 68.775,
+      "eval_steps_per_second": 1.087,
+      "step": 32
+    }
+  ],
+  "note": "Historical saved output; not rerun for publication."
+}
