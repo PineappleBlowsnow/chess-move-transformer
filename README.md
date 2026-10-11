@@ -1,8 +1,10 @@
-# Chess Transformer — MVA TP2
+# Predicting Chess Moves with a Compact Transformer
 
-Ying Jin's **LLM for Code and Proof** coursework: training a compact causal
-Transformer on chess move sequences and evaluating generated moves.
-This repository is assembled exclusively from **TP2/Chess1MChallenge**.
+**MVA course — LLMs for Code and Proof**
+
+Can a small language model learn the structure of legal chess moves? This project trains a compact causal Transformer on move sequences, with a square-level tokenizer and generation diagnostics. It includes model code, historical training logs and a matching saved model.
+
+My coursework adaptations cover tokenization, model/configuration serialization, training settings and evaluator behavior. The original course framework is credited below.
 
 ## Implementation
 
@@ -102,3 +104,6 @@ and the [course arena](https://huggingface.co/spaces/LLM-course/Chess1MChallenge
 The original course metadata names Nathanaël Fijalkow and declares MIT;
 it is preserved in `pyproject.toml`, with the original arena README in `docs/`.
 See [provenance and exclusions](docs/PROVENANCE.md).
+
+
+[Back to the MVA project portfolio](https://github.com/PineappleBlowsnow/mva-portfolio)
