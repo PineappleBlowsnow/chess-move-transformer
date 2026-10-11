@@ -106,4 +106,4 @@ it is preserved in `pyproject.toml`, with the original arena README in `docs/`.
 See [provenance and exclusions](docs/PROVENANCE.md).
 
 
-[Back to the MVA project portfolio](https://github.com/PineappleBlowsnow/mva-portfolio)
+[Back to Ying Jin's project directory](https://github.com/PineappleBlowsnow#mva-projects)
